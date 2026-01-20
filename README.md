@@ -9,3 +9,6 @@
 After running steps succesffuly, application should expose two endpoints:
 1. /health-check - nothing special, just json with OK status
 2. /hello-world - some simple text, which can overwritten by setting env example: ``docker run -p 8080:8080 -e SERVER_HELLO="Hello from ENV overwrite" simple-app``
+
+
+Test github actions
