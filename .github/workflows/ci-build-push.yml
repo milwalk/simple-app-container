@@ -4,6 +4,9 @@ on:
   push:
     branch:
       - main
+    paths:
+      - app.py
+      - Dockerfile
 
 jobs:
   build-and-push:
